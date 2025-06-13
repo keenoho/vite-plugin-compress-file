@@ -3,7 +3,6 @@ import path from 'path';
 import zlib from 'zlib';
 
 export function compressFile(subFilePath) {
-  console.log(subFilePath);
   const readStream = fs.createReadStream(subFilePath);
   const writeStream = fs.createWriteStream(`${subFilePath}.gz`);
   const gzip = zlib.createGzip();
