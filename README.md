@@ -1,17 +1,17 @@
-# vite-plugin-move-html-resource
+# vite-plugin-compress-file
 
 ## usage
 
 vite.config.js
 
 ```
-import moveHtmlResourcePlugin from './move-html-resource-plugin';
+import compressFilePlugin from './vite-plugin-compress-file';
 
 export default {
     ...other config
 
     plugins: [
-      moveHtmlResourcePlugin(),
+      compressFilePlugin(),
       ...other plugin
     ],
 
